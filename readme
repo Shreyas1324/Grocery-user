@@ -1,0 +1,21 @@
+=> Address Flag = {0 for Home , 1 for Office , 2 for Hotel , 3 for Other}
+
+
+=> Is_profileCreated Flag = {0 for No , 1 for Yes}
+
+
+=> Reviews = {1: Most Helpful  ,  2: Most Recent , 3: Positive First , 4: Negative First}
+
+
+=> Filter
+	 1>brands
+	 2>discount{1: Upto 5%  ,  2: 5% - 10%  ,  3: 10% - 15%  ,  4: 15% - 25%  ,  5: More than 25%}
+	 3>price
+	 4>const sortby = {1: Popularity  ,  2: Price - Low to High  ,  3: Price - High to Low  ,  4: Alphabetical  ,  5: Rupee Saving - High to Low  ,  6: Rupee Saving - Low to High  ,  7: % Off - High to Low}
+
+
+=> payment_type = {0:cash  ,  1:online}
+=> payment_type = {0:delivery}
+
+
+=> Order_status = {1 : New order  ,  2 : Preparing  ,  3 : Ready  ,  4 : Waiting  ,  5 : Completed}
